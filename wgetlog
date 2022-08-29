@@ -1,0 +1,20 @@
+--2022-08-28 15:53:46--  http://192.168.2.252/snapshit.jpg
+Connecting to 192.168.2.252:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-08-28 15:53:46 ERROR 404: Not Found.
+
+--2022-08-28 16:22:38--  http://192.168.2.252/snapshit.jpg
+Connecting to 192.168.2.252:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-08-28 16:22:38 ERROR 404: Not Found.
+
+--2022-08-28 16:43:10--  http://192.168.2.252/snapshit.jpg
+Connecting to 192.168.2.252:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-08-28 16:43:10 ERROR 404: Not Found.
+
+--2022-08-28 12:46:37--  http://192.168.2.252/snapshit.jpg
+Connecting to 192.168.2.252:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-08-28 12:46:37 ERROR 404: Not Found.
+
