@@ -16,12 +16,12 @@ if ($state =~ /198\.211\.110\.180:6322/ ) {
 if (-e $filename) { 
   print "snapshot exists, deleting\n";
   $m = `rm $filename`;
-  $g = `wget -a /home/divellc/wgsnap.log -O /tmp/snapshot.jpg http://192.168.2.252/snapshot.jpg`;
+  $g = `wget -nv -a /home/divellc/wgsnap.log -O /tmp/snapshot.jpg http://192.168.2.252/snapshot.jpg`;
   #$g = `wget https://cisco.com -o /tmp/snapshot`;
   sleep 2;
  } else {
   print "$filename doesn't exist\n"; 
-  $g = `wget -a /home/divellc/wgsnap.log -O /tmp/snapshot.jpg http://192.168.2.252/snapshot.jpg`;
+  $g = `wget -nv -a /home/divellc/wgsnap.log -O /tmp/snapshot.jpg http://192.168.2.252/snapshot.jpg`;
   #$g = `wget https://cisco.com -o /tmp/ciscoindex.html`;
  }
 
